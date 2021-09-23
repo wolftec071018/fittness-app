@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+TC:wght@500&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', 'Roboto','Noto Sans',  'Lato', 'Noto Sans JP',  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Noto Sans TC', 'Roboto','Noto Sans',  'Lato', 'Noto Sans JP',  sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans TC', 'Roboto','Noto Sans',  'Lato', 'Noto Sans JP',  sans-serif;
+}
+
+
+.welcomebg {
+  background: #c0b9dd;
+  background-attachment: fixed !important;
+}
